@@ -19,6 +19,14 @@ students.forEach((student,index)=>{
 
 
 // FILTER:
+// let studentStartdate = students.filter((start)=>{
+//     if(start.start>="2020"){
+//         return true;
+//     }
+// })
+
+let studentStartdate = students.filter(start=>start.start>"2020")
+console.log("startdate",studentStartdate)
 
 
 
@@ -26,7 +34,7 @@ students.forEach((student,index)=>{
 
 
 
-
+// Map
 
 
 
